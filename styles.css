@@ -1,0 +1,589 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: #2c3e50;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Color Variables */
+:root {
+    --primary-color: #2d5a87;
+    --secondary-color: #4a90a4;
+    --accent-color: #7fb069;
+    --text-dark: #2c3e50;
+    --text-light: #6c757d;
+    --bg-light: #f8fafc;
+    --white: #ffffff;
+    --gradient-primary: linear-gradient(135deg, #2d5a87 0%, #4a90a4 100%);
+    --gradient-secondary: linear-gradient(135deg, #4a90a4 0%, #7fb069 100%);
+    --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.05);
+    --shadow-medium: 0 10px 25px rgba(0, 0, 0, 0.1);
+    --shadow-heavy: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Navigation */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+    padding: 15px 0;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid rgba(45, 90, 135, 0.1);
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.nav-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lang-toggle {
+    background: var(--gradient-primary);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lang-toggle:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-medium);
+}
+
+.cta-button {
+    background: var(--gradient-secondary);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-heavy);
+}
+
+.nav-cta {
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.hero-visual {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-primary);
+    z-index: -2;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(45, 90, 135, 0.8), rgba(74, 144, 164, 0.6));
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    margin-bottom: 2.5rem;
+    opacity: 0.95;
+    line-height: 1.7;
+}
+
+.hero-cta {
+    font-size: 1.1rem;
+    padding: 15px 35px;
+}
+
+/* Section Styles */
+section {
+    padding: 80px 0;
+    position: relative;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.section-header h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background: var(--gradient-secondary);
+    border-radius: 2px;
+}
+
+/* About Section */
+.about {
+    background: var(--bg-light);
+}
+
+.content-grid {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--text-dark);
+    text-align: center;
+}
+
+/* Strategy Section */
+.strategy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    margin-top: 60px;
+}
+
+.strategy-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--shadow-light);
+    transition: all 0.4s ease;
+    border: 1px solid rgba(45, 90, 135, 0.1);
+}
+
+.strategy-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-heavy);
+}
+
+.strategy-image {
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.strategy-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.strategy-card:hover .strategy-image img {
+    transform: scale(1.1);
+}
+
+.strategy-content {
+    padding: 30px;
+}
+
+.strategy-content h3 {
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.strategy-content h4 {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.strategy-content ul {
+    list-style: none;
+}
+
+.strategy-content li {
+    padding: 8px 0;
+    position: relative;
+    padding-left: 20px;
+    color: var(--text-dark);
+}
+
+.strategy-content li::before {
+    content: '•';
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Plans Section */
+.plans {
+    background: var(--bg-light);
+}
+
+.plans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.plan-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: var(--shadow-light);
+    transition: all 0.3s ease;
+    border-left: 4px solid var(--primary-color);
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-medium);
+}
+
+.plan-date {
+    background: var(--gradient-primary);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.plan-card h3 {
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.plan-card p {
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+/* Alliance Section */
+.alliance-intro {
+    max-width: 800px;
+    margin: 0 auto 50px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.benefit-item {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: var(--shadow-light);
+    transition: all 0.3s ease;
+    border-top: 3px solid var(--accent-color);
+}
+
+.benefit-item:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-medium);
+}
+
+.benefit-item h4 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.benefit-item p {
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+/* Who We Are & Who Should Join */
+.who-we-are {
+    background: var(--bg-light);
+}
+
+.join-list ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.join-list li {
+    padding: 8px 0;
+    position: relative;
+    padding-left: 25px;
+    color: var(--text-dark);
+}
+
+.join-list li::before {
+    content: '✓';
+    color: var(--accent-color);
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+/* Contact Section */
+.contact {
+    background: var(--gradient-primary);
+    color: white;
+}
+
+.contact .section-header h2 {
+    color: white;
+}
+
+.contact .section-header h2::after {
+    background: white;
+}
+
+.contact-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    margin-bottom: 40px;
+}
+
+.contact-item {
+    margin: 20px 0;
+    font-size: 1.1rem;
+}
+
+.contact-item strong {
+    margin-right: 10px;
+}
+
+.contact-item a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    transition: border-color 0.3s ease;
+}
+
+.contact-item a:hover {
+    border-bottom-color: white;
+}
+
+.contact-cta {
+    background: var(--gradient-secondary);
+    font-size: 1.2rem;
+    padding: 15px 40px;
+}
+
+/* Footer */
+.footer {
+    background: var(--text-dark);
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-logo img {
+    height: 30px;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.footer p {
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .nav-content {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .nav-controls {
+        gap: 15px;
+    }
+    
+    .hero {
+        height: 80vh;
+        margin-top: 100px;
+    }
+    
+    section {
+        padding: 60px 0;
+    }
+    
+    .strategy-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .plans-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .benefits-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .join-list ul {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-item {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .strategy-content {
+        padding: 20px;
+    }
+    
+    .plan-card {
+        padding: 20px;
+    }
+    
+    .benefit-item {
+        padding: 20px;
+    }
+}
+
+/* Animation Classes */
+.fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Language Toggle Animation */
+.zh-text {
+    transition: opacity 0.3s ease;
+}
+
+/* Smooth scrolling offset */
+html {
+    scroll-padding-top: 100px;
+}
+
+/* Loading Animation */
+.loading {
+    opacity: 0;
+    animation: loadingFade 0.5s ease forwards;
+}
+
+@keyframes loadingFade {
+    to {
+        opacity: 1;
+    }
+}
