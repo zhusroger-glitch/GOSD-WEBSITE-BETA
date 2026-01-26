@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOSD and SMA Launch Strategic Partnership - GOSD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .news-detail { padding: 120px 20px 80px; max-width: 800px; margin: 0 auto; }
+        .news-detail h1 { font-size: 32px; font-weight: 600; margin-bottom: 15px; line-height: 1.4; }
+        .news-meta { color: #888; font-size: 14px; margin-bottom: 30px; }
+        .news-content { line-height: 1.9; font-size: 16px; color: #333; }
+        .news-content img { width: 100%; border-radius: 12px; margin: 25px 0; }
+        .news-content p { margin-bottom: 20px; text-align: justify; }
+        .news-content h3 { font-size: 20px; font-weight: 600; margin: 35px 0 15px; }
+        .news-content ul, .news-content ol { margin: 15px 0 20px 20px; }
+        .news-content li { margin-bottom: 8px; }
+        .back-link { display: inline-block; margin-bottom: 30px; color: #0077FF; text-decoration: none; }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+    <script>
+        function toggleLanguage() {
+            window.location.href = '../zh/news/news-002.html';
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="../index.html"><img src="../gosd-logo.png" alt="GOSD Logo"></a>
+                </div>
+                <div class="nav-controls">
+                    <button class="lang-toggle" onclick="window.location.href='index.html'">News</button>
+                    <button class="cta-button nav-cta" onclick="window.open('https://forms.office.com/r/KdGdhcWukc', '_blank')">Register now to join GOSD 2026 initiatives</button>
+                    <button class="lang-toggle" onclick="toggleLanguage()">中文</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="news-detail">
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to News</a>
+            
+            <h1>GOSD and the Sustainable Mountain Alliance (SMA) Launch Strategic Partnership to Drive Sustainable Innovation in Outdoor Sport and Tourism in China</h1>
+            <div class="news-meta">January 9, 2026</div>
+            
+            <div class="news-content">
+                <p>At the 2026 GOSD "Global Outdoor Sports & Tourism Destination Development Forum" held by GOSD and ISPO during ISPO Beijing 2026, a landmark strategic partnership was officially announced between the Global Outdoor Sports and Tourism for Sustainable Destinations (GOSD) and the Sustainable Mountain Alliance (SMA). This collaboration represents a significant milestone in the shared global effort to accelerate the transition of outdoor sports and tourism in China and globally toward a more sustainable and regenerative future.</p>
+
+                <!-- Image -->
+                <img src="../images/news/news-002.jpg" alt="GOSD and SMA Strategic Partnership">
+
+                <h3>A Shared Vision for Partnership</h3>
+                <p>The partnership was introduced by Sarah Lewis, OBE OLY, Vice President of SMA and former Secretary General of the International Ski and Snowboard Federation (FIS). Highlighting the rapid growth of the global outdoor sector, Sarah emphasized the urgent need to protect the natural playgrounds that make these activities possible.</p>
+
+                <p>"In China, you have some of the most beautiful natural environments that deserve strong stewardship so that future generations can continue to enjoy them," Sarah highlighted the country's exceptional natural landscapes and praised China's capacity for innovation and its leadership in sustainability measures, citing her first-hand experience supporting preparations for the Beijing 2022 Olympic Winter Games.</p>
+
+                <p>Sarah concluded by announcing a strategic partnership between SMA and Global Outdoor Sports and Tourism for Sustainable Destinations (GOSD). Through this partnership, the two organisations will jointly explore and develop collaborative projects.</p>
+
+                <h3>Key Collaborative Projects</h3>
+
+                <h3>1. The SMA Sustainable Event Label</h3>
+                <p>Pierre Germeau, Co-founder of SMA, introduced the first global sustainability certification dedicated specifically to events held in mountain environments. Launched on International Mountain Day, the label is built upon the rigorous international standard ISO 20121:2024, the leading framework for Event Sustainability Management Systems.</p>
+
+                <ul>
+                    <li><strong>The Mechanism:</strong> The label offers ISO 20121 "second-party certification," providing a credible middle ground—stricter than self-declaration but more accessible than full third-party audits. It operates on a "Plan–Do–Check–Act" cycle, awarding events with Bronze (basic practices), Silver (structured implementation), or Gold (advanced integration) status. The certification is valid for three years with annual surveillance.</li>
+                    <li><strong>Strategic Value:</strong> With mountain ecosystems warming faster than the global average, this label transforms sustainability into a measurable asset. For organizers, it delivers:
+                        <ul>
+                            <li><strong>Credibility and Trust:</strong> Gains international recognition and demonstrates transparency.</li>
+                            <li><strong>Competitive Advantage:</strong> Differentiates events in a growing market where sustainability is key.</li>
+                            <li><strong>Operational Excellence:</strong> Offers tools to reduce costs, improve efficiency, and manage risks.</li>
+                            <li><strong>Global Alignment:</strong> Directly supports China's 2060 carbon neutrality goals and the UN SDGs.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>2. The Mountain Solutions Accelerator</h3>
+                <p>Ingrid Beutler, Co-founder of SMA, presented the Accelerator, a strategic program launched in 2024 to identify, assess, and support innovative technologies and models that drive a regenerative economy in mountain regions. The Accelerator targets solutions across six "Impact Verticals":</p>
+
+                <ol>
+                    <li>Carbon avoidance and removal</li>
+                    <li>Waste reduction and the circular economy</li>
+                    <li>Water preservation</li>
+                    <li>Mountain biodiversity and ecosystem protection</li>
+                    <li>Community, culture, and heritage engagement</li>
+                    <li>Science, research, and data</li>
+                </ol>
+
+                <p>Through the collaboration with GOSD, the accelerator will identify Chinese-based startups and organizations that can apply to and benefit from the Accelerator. This initiative aims to stimulate innovation, create jobs, and support more sustainable solutions that will benefit the outdoor sports and tourism industry both in China and globally.</p>
+
+                <p>SMA looks forward to a close collaboration with GOSD and the Chinese industry—sharing global best practices, building capacity, and enhancing sustainability measures. Specifically through the Mountain Solutions Accelerator, the partnership aims to build an Impact Fund to identify and support innovative solutions, helping the industry become more responsible and sustainable.</p>
+
+                <h3>Looking Ahead: A Call for Co-Creation</h3>
+                <p>This partnership is just the beginning. GOSD and SMA call on all industry stakeholders to stand with us. Whether you are a destination manager, event organizer, brand, or innovator, your involvement is crucial. We welcome co-creation and support in all forms. Together, let us ensure that our mountains remain treasures for nature, culture, and sport for generations to come.</p>
+
+                <p>We will be sharing more details about the participating projects in the future. Please stay tuned.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../gosd-logo.png" alt="GOSD Logo">
+                    <p>© 2025 GOSD. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

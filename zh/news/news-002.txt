@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOSD与SMA达成战略伙伴关系 - GOSD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../styles.css">
+    <style>
+        .news-detail { padding: 120px 20px 80px; max-width: 800px; margin: 0 auto; }
+        .news-detail h1 { font-size: 32px; font-weight: 600; margin-bottom: 15px; line-height: 1.4; }
+        .news-meta { color: #888; font-size: 14px; margin-bottom: 30px; }
+        .news-content { line-height: 1.9; font-size: 16px; color: #333; }
+        .news-content img { width: 100%; border-radius: 12px; margin: 25px 0; }
+        .news-content p { margin-bottom: 20px; text-align: justify; }
+        .news-content h3 { font-size: 20px; font-weight: 600; margin: 35px 0 15px; }
+        .news-content ul { margin: 15px 0 20px 20px; }
+        .news-content li { margin-bottom: 8px; }
+        .back-link { display: inline-block; margin-bottom: 30px; color: #0077FF; text-decoration: none; }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+    <script>
+        function toggleLanguage() {
+            window.location.href = '../../news/news-002.html';
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="../../index.html"><img src="../../gosd-logo.png" alt="GOSD Logo"></a>
+                </div>
+                <div class="nav-controls">
+                    <button class="lang-toggle" onclick="window.location.href='index.html'">新闻</button>
+                    <button class="cta-button nav-cta" onclick="window.open('https://forms.office.com/r/KdGdhcWukc', '_blank')">立即报名GOSD 2026 活动</button>
+                    <button class="lang-toggle" onclick="toggleLanguage()">English</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="news-detail">
+        <div class="container">
+            <a href="index.html" class="back-link">← 返回新闻列表</a>
+            
+            <h1>GOSD与可持续山地联盟SMA达成战略伙伴关系，共同推动中国户外运动与旅游的可持续创新</h1>
+            <div class="news-meta">2026年1月9日</div>
+            
+            <div class="news-content">
+                <p>在2026年1月9日GOSD与ISPO联合举办的GOSD全球户外运动与旅游可持续目的地发展论坛上，<strong>GOSD与可持续山地联盟（Sustainable Mountain Alliance, 简称SMA）正式宣布达成战略合作伙伴关系</strong>。</p>
+
+                <!-- 图片位置 -->
+                <img src="../../images/news/news-002.jpg" alt="GOSD与SMA战略伙伴关系">
+
+                <p>此次合作，GOSD引入了全球首个基于ISO国际标准的山地赛事可持续认证体系，为中国赛事活动组织者提供了可衡量的发展框架，同时山地解决方案加速器也将在中国发掘面向户外运动与旅游领域可持续解决方案。此举将推动行业绿色低碳运营与安全保障升级，搭建起中外双向合作的桥梁，助力中国户外运动市场与全球资源互通互融，更标志着中国大众户外运动与旅游产业向着更可持续创新的未来迈向关键一步。</p>
+
+                <h3>Sustainable Mountain Alliance（SMA，可持续山地联盟）介绍</h3>
+                <p>总部位于瑞士，是聚焦山地可持续发展的国际合作网络和智库，致力于推动山地旅游与户外运动在环境保护、社区共益与长期经济韧性之间取得平衡。联盟汇聚目的地管理机构、行业组织、企业与专家，通过制定与推广可持续标准与工具、分享最佳实践、开展能力建设与跨区域合作，帮助山地目的地在应对气候变化、生物多样性保护、资源管理与负责任运营等议题上形成可落地的行动路径，推动山地产业向更绿色、更包容、更高质量的方向发展。</p>
+
+                <p><strong>GOSD X SMA于2026年1月9日《2026 全球户外运动与旅游目的地发展论坛》宣布达成战略伙伴关系。</strong></p>
+
+                <h3>共同愿景</h3>
+                <p><em>SMA副主席莎拉·刘易斯Sarah Lewis曾担任国际滑雪联合会（FIS）秘书长长达22年。她与中国有着深厚的渊源，曾任2022年北京冬奥会筹备的高级顾问，并于2018年受聘为北京体育大学名誉教授。</em></p>
+
+                <p>莎拉指出，全球户外运动与旅游产业正在蓬勃发展，越来越多的人回归自然，享受户外运动的益处。她深情地说道："在中国，你们拥有一些最美丽的自然环境，值得强有力的守护，以便子孙后代能够继续像今天一样享受它们。"</p>
+
+                <p>她特别提到曾到访北京、河北、吉林和黑龙江等地，亲历了"世界雪日（World Snow Day）"和"SnowKidz"等青少年发展活动。她高度认可中国在可持续发展方面的创新领导力——这一点在2022北京冬奥会期间得到了充分展示。</p>
+
+                <p><strong>莎拉宣布GOSD和SMA双方正式开启战略伙伴关系，共同探索一系列联合项目，为交流良好实践和灵感提供平台！</strong></p>
+
+                <h3>主要合作方向</h3>
+
+                <h3>SMA可持续赛事标签（The SMA Sustainable Event Label）</h3>
+                <p><em>SMA联合创始人皮埃尔热尔莫Pierre Germeau详细介绍了这一全球首创的认证体系。Pierre是一位拥有20多年经验的可持续发展与法律专家，曾参与北京世界智力运动会等多个中国项目。</em></p>
+
+                <p>该标签于上月<strong>"国际山岳日"</strong>正式发布，是世界上第一个致力于山地活动的可持续性认证，建立在国际标准ISO 20121:2024之上。</p>
+
+                <ul>
+                    <li><strong>重要性：</strong>山脉是地球上最脆弱的生态系统之一，变暖速度比全球平均速度更快。冰川正在融化，水安全面临风险，生态系统日益脆弱。Pierre强调，保护这些文化宝藏和重要生态区对生物多样性、水安全和气候复原力至关重要。</li>
+                    <li><strong>组织者的收益：</strong>申请标签不仅是认证，更是领导力声明。它表明了对负责任实践、气候行动和社区参与的承诺。</li>
+                    <li><strong>信誉和信任：</strong>获得国际标准认可，展示透明度。</li>
+                    <li><strong>竞争优势：</strong>在可持续性成为关键决策因素的市场中脱颖而出。</li>
+                    <li><strong>卓越运营：</strong>获取工具与指导，降低成本、提升效率并管理风险。</li>
+                    <li><strong>全球共识：</strong>为中国碳中和目标及联合国可持续发展目标（SDGs）做出贡献。</li>
+                    <li><strong>运作方式：</strong>遵循"计划—执行—检查—改进"循环，活动经评估可获得铜级（基本的可持续实践）、银级（有体系的实施）或金级（高级整合与持续改进）认证。</li>
+                </ul>
+
+                <h3>山地解决方案加速器（The Mountain Solutions Accelerator）</h3>
+                <p><em>SMA联合创始人英格丽博伊特勒Ingrid Beutler展示了于2024年推出的加速器项目。Ingrid曾任联合国体育促进发展与和平办公室主任，并参与了2008年北京奥运会的相关工作。</em></p>
+
+                <p>该加速器旨在识别、评估并支持面向户外运动与旅游领域的可持续解决方案，聚焦于六大"影响力垂直领域"：</p>
+
+                <ul>
+                    <li>避免和清除碳 (Carbon avoidance and removal)</li>
+                    <li>减少废物和循环经济 (Waste reduction and circular economy)</li>
+                    <li>水源保护 (Water Preservation)</li>
+                    <li>山地生物多样性与生态系统保护和再生 (Biodiversity protection)</li>
+                    <li>山民文化遗产就业和参与 (Community and Culture)</li>
+                    <li>科学、研究和数据 (Science and Data)</li>
+                </ul>
+
+                <p><strong>通过GOSD与SMA的合作</strong>，分享全球范围内的最佳实践，开展能力建设与教育培训。借助山地解决方案加速器，增强户外活动的可持续表现并挖掘更多解决实际行业难点痛点的方案，未来能建立一个能识别并支持创新方案的影响力基金，进一步提升中国户外运动与旅游领域更加负责任、更可持续、更大的行业影响力。</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../../gosd-logo.png" alt="GOSD Logo">
+                    <p>© 2025 GOSD. 版权所有。</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

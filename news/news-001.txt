@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 GOSD Forum Opens in Beijing - GOSD</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .news-detail { padding: 120px 20px 80px; max-width: 800px; margin: 0 auto; }
+        .news-detail h1 { font-size: 32px; font-weight: 600; margin-bottom: 15px; line-height: 1.4; }
+        .news-meta { color: #888; font-size: 14px; margin-bottom: 30px; }
+        .news-content { line-height: 1.9; font-size: 16px; color: #333; }
+        .news-content img { width: 100%; border-radius: 12px; margin: 25px 0; }
+        .news-content p { margin-bottom: 20px; text-align: justify; }
+        .back-link { display: inline-block; margin-bottom: 30px; color: #0077FF; text-decoration: none; }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+    <script>
+        function toggleLanguage() {
+            window.location.href = '../zh/news/news-001.html';
+        }
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="../index.html"><img src="../gosd-logo.png" alt="GOSD Logo"></a>
+                </div>
+                <div class="nav-controls">
+                    <button class="lang-toggle" onclick="window.location.href='index.html'">News</button>
+                    <button class="cta-button nav-cta" onclick="window.open('https://forms.office.com/r/KdGdhcWukc', '_blank')">Register now</button>
+                    <button class="lang-toggle" onclick="toggleLanguage()">中文</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="news-detail">
+        <div class="container">
+            <a href="index.html" class="back-link">← Back to News</a>
+            
+            <h1>Connecting the World, Envisioning the Future — The Inaugural 2026 GOSD Global Outdoor Sports & Tourism Destination Development Forum Opens in Beijing</h1>
+            <div class="news-meta">January 9, 2026</div>
+            
+            <div class="news-content">
+                <p>On January 9, the Inaugural 2026 GOSD Global Outdoor Sports & Tourism Destination Development Forum, co-hosted by GOSD and ISPO, was grandly held at the China National Convention Center in Beijing. Under the theme of "Rooted in China, Connected to the World," this forum focused on the core topics of "Winter Sports × Tourism × Lifestyle," aiming to build an international high-end cooperation and exchange platform that connects China with the global outdoor sports and tourism industry, jointly exploring and promoting the construction of a sustainable outdoor ecosystem.</p>
+
+                <!-- Image 1: Forum opening/venue -->
+                <img src="../images/news/news-001-1.jpg" alt="GOSD Forum Venue">
+
+                <p>The inaugural GOSD Forum brought together top influencers from global outdoor sports and tourism destinations. The forum invited three core representatives from the Sustainable Mountain Alliance (SMA)—Vice Chair Sarah Lewis (former Secretary General of FIS), Co-founder Pierre Germeau, and Ingrid Bittner—to share via video, officially announcing the strategic partnership between GOSD and the Sustainable Mountain Alliance (SMA). Both parties will collaborate in areas such as sustainable event certification, innovative solution incubation, and global best practice exchange, jointly promoting sustainable innovation in the outdoor sports and tourism industry.</p>
+
+                <!-- Image 2: SMA video sharing -->
+                <img src="../images/news/news-001-2.jpg" alt="SMA Video Sharing">
+
+                <p>Benjamin Billet, representing European outdoor sports as the head of OutLab Laboratory at CREPS Rhône-Alpes under the French Ministry of Sports and President of the European Network of Outdoor Sports, shared in detail the trends in European outdoor sports, cross-sector collaboration mechanisms, and sustainable development case studies from historical, social, and anthropological perspectives.</p>
+
+                <p>Representatives from tourism boards and destinations of multiple global winter sports destinations also gathered, including Tang Anyue (Far East Director of Atout France), Wu Zhaohong (Director of Greater China and Southeast Asia at Visit Finland), Wang Yu (Chief Representative of Innovation Norway in Greater China), Berlin (Market Development Manager at Tourism New Zealand), and Chen Xiaofei (China Representative of Laax Ski Resort in Switzerland). Additionally, domestic outdoor ski industry representatives and community leaders participated deeply, including Zhou Hang (Co-founder of Leng Shan Sports), Han Jixiang (Founder of Black Spade Outdoor Club), Lei Tao (Travel Writer and Gallery Director), and Davide Mazzocchi (APAC Business Director of Italy's Zhiyi Travel Group).</p>
+
+                <!-- Image 3: Before roundtable (guest photo/preparation) -->
+                <img src="../images/news/news-001-3.jpg" alt="Roundtable Guests">
+
+                <p>The forum featured two core roundtable discussions focusing on key industry issues. The roundtable "From Niche to Mainstream—Opening a New Era of Chinese Skiing Lifestyle" was jointly explored by Tang Anyue (Atout France), Wu Zhaohong (Visit Finland), Chen Xiaofei (Laax Switzerland), and Han Jixiang (Black Spade Outdoor Club). Chinese users' demand for diverse outdoor activities is expanding, from single sports to integrating sports into their lifestyle. The guests shared insights on the popularization path of the Chinese ski market, changes in consumer behavior, and discussed opportunities for international integration and practical landing opportunities for destination and event organizer cooperation through the combination of events, training, experiences, leisure vacations, and cultural tourism activities.</p>
+
+                <!-- Image 4: After roundtable 1 -->
+                <img src="../images/news/news-001-4.jpg" alt="Roundtable Discussion 1">
+
+                <p>The roundtable "Building Ski Safety Together, Making Skiing Passion Sustainable" deeply explored the profound impact of safety education and sustainable initiatives on the long-term development of the ski industry. Under the guidance of moderator Lei Tao (Travel Writer, Alpine Gallery Director), Wang Yu (Innovation Norway), Zhou Hang (Leng Shan Sports), Berlin (Tourism New Zealand), and Liu Fan (Italy's Zhiyi Travel Group) engaged in dialogue from multiple dimensions including destination experience, industry operation, and consumer education. The guests shared mature experiences from various countries in establishing standardized ski training and safety education systems, and explored how to deeply embed safety standards and sustainable culture into the industry foundation during China's high-speed growth period, thereby avoiding development detours and building a responsible, long-term prosperous ski ecosystem. The discussion further extended to specific practices of sustainable operations, exploring how to achieve balance in energy structure, visitor management, green transportation, and community symbiosis, and demonstrating to the market that sustainability is not a sacrifice of experience, but a guarantee of more lasting and responsible high-quality experiences.</p>
+
+                <!-- Image 5: After roundtable 2 -->
+                <img src="../images/news/news-001-5.jpg" alt="Roundtable Discussion 2">
+
+                <p>This is not only a deep sharing session of global cutting-edge experience and trends, but also a precious platform for inspiring business ideas and facilitating pragmatic cooperation. Participants will have the opportunity to precisely connect with top global destination resources, opening new cooperation spaces in areas such as event introduction, training education, safety systems, and resort product development.</p>
+
+                <p>During the forum, the organizing committee officially launched the "GOSD Alliance." This alliance aims to unite industry forces and form a long-term cooperation mechanism. At the same time, the conference released the industry-leading "2026 GOSD Initiative: Sustainable Winter Sports and Tourism," clearly proposing three action directions:</p>
+
+                <p>First, promote diverse winter sports and tourism activities to make passion sustainable.<br>
+                Second, build safe and responsible activity education and protection to make participation longer-lasting.<br>
+                Third, encourage green and low-carbon activity design and operation to make the ecosystem healthier.</p>
+
+                <p>This initiative marks that the entire industry has reached a high consensus on practicing environmental responsibility, consolidating the safety foundation, and promoting long-term healthy development, and has taken a solid step forward. As an important implementation plan under the GOSD framework, GOSD officially launched its systematic services through this forum. Facing the pain points of overseas destinations in the Chinese market such as "scattered promotion and inefficient connection," GOSD aims to centrally promote high-quality global resources through workshop matchmaking events in multiple cities such as Beijing and Shanghai, as well as diverse forms such as industry education study tours, spreading trends and insights while empowering Chinese industry partners to maximize commercial value conversion. "GOSD hopes to work with domestic and foreign outdoor sports and tourism destination management organizations, sports and outdoor sports institutions, tourism boards, event organizers, training institutions, resorts, service providers, and related brand enterprises. Whether for the booming Chinese mass outdoor sports tourism market or mature or emerging overseas outdoor sports tourism destinations, there are new cooperation and growth opportunities for each other. GOSD hopes to help promote two-way cooperation and two-way growth," said GOSD founder Fang Min.</p>
+
+                <!-- Image 6: Initiative release/group photo -->
+                <img src="../images/news/news-001-6.jpg" alt="GOSD Initiative Release">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../gosd-logo.png" alt="GOSD Logo">
+                    <p>© 2025 GOSD. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
